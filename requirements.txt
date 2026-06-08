@@ -1,0 +1,8 @@
+streamlit>=1.32,<2.0
+numpy>=1.24,<2.0
+ai-edge-litert>=1.0
+pillow>=10.0
+# YOLOv8 detector. torch + torchvision are installed separately from the CPU
+# wheel index in the Dockerfile to avoid the ~2 GB CUDA build.
+ultralytics>=8.2,<9.0
+opencv-python-headless>=4.9
